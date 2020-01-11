@@ -72,7 +72,7 @@ region = "${S3BUCKETREGION}"
 EOF
 cat backend.tf
 rm -rf .terraform/terraform.tfsta
-teterraform_0.11.14 init
+terraform_0.11.14 init
 
 echo "#############"
 
